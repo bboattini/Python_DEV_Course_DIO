@@ -8,3 +8,9 @@
 * **help():** permite buscas no modo iterativo
   * Com um argumento retorna um resumo do objeto e dos métodos associados a classe do objeto
 
+### Variáveis e Constantes:
+* Em Python não possui definição de uma constante, mas usa-se a convenção de **CapsLk** na definição valores que não devem ser alterados
+  * ex: CONSTANTE = 10
+* Como boa prática variaveis devem ter nomes sugestivos e e em snake case
+  * ex: usuarios_conta_corrente = ["João", "Maria"]
+  * ex: BRAZILIAN_STATES = ["RS", "SP", "RJ"]
