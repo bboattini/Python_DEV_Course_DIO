@@ -14,3 +14,8 @@
 * Como boa prática variaveis devem ter nomes sugestivos e e em snake case
   * ex: usuarios_conta_corrente = ["João", "Maria"]
   * ex: BRAZILIAN_STATES = ["RS", "SP", "RJ"]
+
+### Funções de Entrada e Saída:
+* **print():** pode receber dois argumentos **sep: str** e **end: str** que podem ser usados para modificar a separação entre variaves e o final do output, respectivamente
+* **fstring:**
+  * ex: f"Retorna {val_1} e {val_2}"
