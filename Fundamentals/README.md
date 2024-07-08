@@ -42,3 +42,6 @@ Notas relativas a tópicos novos que aprendi nesse curso
   ```
   copo = "cheio" if ("agua" in copo) else "vazio"
   ```
+### Estruturas de Repetição
+* **break:** para sair do loop de execução
+* **continue:** para pular um dos loops dentro da execução 
