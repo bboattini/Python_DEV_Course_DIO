@@ -44,4 +44,34 @@ Notas relativas a tópicos novos que aprendi nesse curso
   ```
 ### Estruturas de Repetição
 * **break:** para sair do loop de execução
-* **continue:** para pular um dos loops dentro da execução 
+* **continue:** para pular um dos loops dentro da execução
+
+## Curso: Dominando Strings e Fatiamento
+
+### Conhecendo Métodos Úteis
+* **upper:** coverte todos os caracteres para maiúsculo
+* **lower:** coverte todos os caracteres para minusculo
+* **title:** converte todos os caracteres para minusculo exeto o primeiro que é convertido para maiusculo
+* **strip:** elimita espaços em branco nas extreidades do string
+  * **lstrip:** elimina espaços à esquerda
+  * **rstrip:** elimina espaços à direita
+* **center:** bom para fazer bons menus em interfácie programável
+```
+<string_variable>.center(char_len, filling_char)
+```
+_exemplo_
+```
+curso = "Python"
+n = len(curso)
+print(curso.center(n+4, "#"))
+>> ##Python##
+```
+* **join:** adiciona variaveis entre caracteres do iteravel
+
+_exemplo_
+```
+curso = "Python"
+n = len(curso)
+print(".".join(curso))
+>> ##Python##
+```
