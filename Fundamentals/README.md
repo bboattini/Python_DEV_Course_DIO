@@ -27,3 +27,8 @@ Notas relativas a tópicos novos que aprendi nesse curso
 * Verifica se 2 objetos ocupam a mesma região de memoria
 * **is:** quando entre 2 variaveis retorna **True** se elas ocuparem a mesma região de memoria, vice-versa
 * **is not:** quando entre 2 variaveis retorna **True** se elas não ocuparem a mesma região de memoria, vice-versa
+
+### Operadores de Associação
+* Identifica se um objeto esta presente em uma sequência
+* **in:** quando entre 2 variaveis retorna **True** se a primeira estiver contida na segunda
+* **not in:** quando entre 2 variaveis retorna **True** se a primeira não estiver contida na segunda
