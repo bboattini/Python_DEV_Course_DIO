@@ -75,3 +75,21 @@ n = len(curso)
 print(".".join(curso))
 >> ##Python##
 ```
+### Interpolação de Variaveis string
+* **format:** pode ser usado com dicionário
+  _exemplo_
+  ```
+  dados = ["pi": 3.1415, "nome": "Bernardo"]
+  print(f"Hello! My name is {nome}, and you can assume PI as {pi:.2}.".format(**dados))
+  >> Hello! My name is Bernardo, and you can assume PI as 3.14.
+  ```
+* **f-string:** melhor forma de formatar string
+
+  _exemplo_
+  ```
+  price = 45,52
+  nome = "Bernardo"
+  discovery = 2100
+  print(f"Hello! My name is {nome}, the course price is {price:2.}.")
+  >> Hello! My name is Bernardo, the couse price is 45.
+  ```
