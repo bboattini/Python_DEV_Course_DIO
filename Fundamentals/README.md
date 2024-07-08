@@ -32,3 +32,13 @@ Notas relativas a tópicos novos que aprendi nesse curso
 * Identifica se um objeto esta presente em uma sequência
 * **in:** quando entre 2 variaveis retorna **True** se a primeira estiver contida na segunda
 * **not in:** quando entre 2 variaveis retorna **True** se a primeira não estiver contida na segunda
+
+## Curso: Estruturas Condicionais e de Repetição
+
+### Estruturas Condicionais
+* **if ternário:** permite escrever uma instrução em apenas uma linha
+
+  _exemplo:_
+  ```
+  copo = "cheio" if ("agua" in copo) else "vazio"
+  ```
