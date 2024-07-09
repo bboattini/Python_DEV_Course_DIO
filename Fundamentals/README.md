@@ -93,3 +93,7 @@ print(".".join(curso))
   print(f"Hello! My name is {nome}, the course price is {price:2.}.")
   >> Hello! My name is Bernardo, the couse price is 45.
   ```
+### Fatiamento de string
+```
+<string_variable>[begin:end:interval]
+```
